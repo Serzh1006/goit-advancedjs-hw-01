@@ -24,7 +24,6 @@
 .gallery-image:hover,
 .gallery-image:focus {
   transform: scale(1.03);
-  cursor: url('../cursor.png'), auto;
 }
 
 img {
