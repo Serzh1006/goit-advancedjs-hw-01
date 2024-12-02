@@ -4,12 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form page</title>
-    <script type="module" crossorigin src="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/2-form-BEYn6Q2B.css">
   </head>
   <body>
     <main>
       <a href="./index.html">Back</a>
-      <h1>form</h1>
+      <form class="feedback-form" autocomplete="off">
+        <label class="label">
+          Email
+          <input class="email-field" type="email" name="email" autofocus />
+        </label>
+        <label class="label">
+          Message
+          <textarea class="text-field" name="message" rows="8"></textarea>
+        </label>
+        <button class="btn-submit" type="submit">Submit</button>
+      </form>
     </main>
   </body>
 </html>
